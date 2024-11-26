@@ -3,3 +3,17 @@ body, html {
   padding: 0;
   box-sizing: border-box;
 }
+
+/* Navigation */
+nav ul li {
+  width: 145px;
+  list-style-type: none;
+  float: left;
+
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
