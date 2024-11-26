@@ -38,3 +38,15 @@ border-bottom: 2px solid #fbf0eb;
   display: table;
   clear: both;
 }
+
+/* MAIN */
+.first-photo {
+  background: black;
+}
+.first-photo img{
+height: 500px;
+display: block;
+margin: 0 auto;
+position: relative;
+top: 100px;
+}
