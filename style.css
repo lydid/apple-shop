@@ -1,15 +1,36 @@
-body, html {
+body,
+html {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
 /* Navigation */
+nav {
+  background: rgba(0, 0, 0, 0.8);
+}
+
+nav ul {
+  width: 1020px;
+  margin: 0 auto;
+}
+
 nav ul li {
   width: 145px;
   list-style-type: none;
   float: left;
+  text-align: center;
+  line-height: 50px;
+  font-size: 20px;
+}
 
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+nav ul li a:hover {
+border-bottom: 2px solid #fbf0eb;
 }
 
 .clearfix:after {
